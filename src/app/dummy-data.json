@@ -1,0 +1,54 @@
+{
+  "questionArray": [
+    {
+      "text": "Which of these IPL franchise was banned for two years?",
+      "options": ["Chennai Super Kings", "Gujarat Lions", "Pune Supergiants"],
+      "answer": "Chennai Super Kings"
+    },
+    {
+      "text": "Where was the first IPL match played?",
+      "options": ["Bangalore", "Mumbai", "Kolkata"],
+      "answer": "Bangalore"
+    },
+    {
+      "text": "Who scored the first century of the IPL?",
+      "options": ["Michael Hussey", "Chris Gayle", "Brendon McCullum"],
+      "answer": "Brendon McCullum"
+    },
+    {
+      "text": "Which IPL franchise Indian cricketer Yuvraj Singh has never played for?",
+      "options": ["Sunrisers Hyderabad", "Kings XI Punjab", "Royal Challengers Bangalore"],
+      "answer": "Royal Challengers Bangalore"
+    },
+    {
+      "text": "Who was the first Indian captain to hold the IPL trophy?",
+      "options": ["Rohit Sharma", "MS Dhoni", "Sachin Tendulkar"],
+      "answer": "MS Dhoni"
+    },
+    {
+      "text": "Who has scored most runs in a single IPL edition?",
+      "options": ["David Warner", "Virat Kohli", "Kane Williamson"],
+      "answer": "Virat Kohli"
+    },
+    {
+      "text": "Who took the first hat-trick in an IPL match?",
+      "options": ["Laxmipathy Balaji", "Amit Mishra", "Axar Patel"],
+      "answer": "Laxmipathy Balaji"
+    },
+    {
+      "text": "Who was the second captain to lift IPL trophy?",
+      "options": ["MS Dhoni", "Adam Gilchrist", "Kumar Sangakkara"],
+      "answer": "Adam Gilchrist"
+    },
+    {
+      "text": "Which of these cricketers has been playing for same franchise?",
+      "options": ["Ravindra Jadeja", "Virat Kohli", "Suresh Raina"],
+      "answer": "Virat Kohli"
+    },
+    {
+      "text": "Who was the first bowler to pick up a six-for in an IPL match?",
+      "options": ["Lasith Malinga", "Makhaya Ntini", "Sohail Tanvir"],
+      "answer": "Sohail Tanvir"
+    }
+  ]
+}

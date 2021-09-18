@@ -1,0 +1,25 @@
+.passed {
+  color: white;
+  padding: 100px 100px;
+  border: 3px solid white;
+  text-align: center;
+  background-color: seagreen;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+
+.failed {
+  color:white;
+  padding: 100px 100px;
+  border: 3px solid white;
+  text-align: center;
+  background-color: #D22B2B;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+

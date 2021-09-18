@@ -1,0 +1,27 @@
+<h2> Quiz is LIVE</h2>
+<p>( You need to get atleast 7 out of 10 questions right to PASS )</p>
+<p>TIMER: {{ getTimer() }}</p> <br>
+
+<form [formGroup]="quizForm" (ngSubmit)="onSubmit()">
+  <ng-container formArrayName="quizFormArray">
+    <ng-container
+      *ngFor="
+        let question of quizFormArray.controls;
+        let questionGroupIndex = index
+      "
+    >
+      <div [formGroupName]="questionGroupIndex">
+        <b><h3>{{ questionGroupIndex + 1 + ") " }} {{ question.value.question }}</h3></b>
+        <ng-container *ngFor="let options of question.value.options">
+          <label>
+            <input type="radio" [value]="options" formControlName="selection" />
+            {{ options }}
+            <br>
+          </label>
+        </ng-container>
+      </div>
+    </ng-container>
+  </ng-container>
+  <br><br>
+  <button type="submit">Complete</button>
+</form>
